@@ -1,0 +1,82 @@
+/* SELECTORES EN CSS */
+
+/* 3 SELECTORES
+  1: Nombre de etiqueta
+  2: Por identificador propio "ID"
+  3: Por clase común "CLASS"
+*/
+
+/* Selector universal: Selecciona todos los elementos de la web */
+* {
+  /* Espacio ente el borde del elemento hacia fuera */
+  margin: 0px;
+  /* Espacio ente el borde del elemento hacia dentro */
+  padding: 0px;
+}
+
+body {
+  font-family: helvetica;
+}
+
+header {
+  background-color: #dddddd;
+  padding: 50px;
+  /* posiciona elementos con proporcionalidad de manera rápida y sencilla*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* SELECTOR POR ID: Cuando tengo que añadir una propiedad especifica a un elemento */
+
+#logo {
+    width: 180px;
+}
+
+/* SELECTORES POR CLASE: Cuando vvarios elementos tienen propiedades comunes*/
+
+.imagen {
+    width: 350px;
+    margin: 20px;
+}
+
+main {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* PIE D EPAGINA */
+
+footer {
+  background-color: #ddd;
+  height: 50px;
+  text-align: center;
+}
+
+/* FORMULARIO */
+
+form {
+    width: 30%
+    /* Cuando hay dos valores, el primero es arriba/abajo y el segundo izquierda/derecha*/
+    margin: 20px auto;
+    border: 1px sold black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Todos los elementos del form (100%) */
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    resize: none;
+}

@@ -1,0 +1,49 @@
+<!-- HTML es un lenguaje de etiquetas que proporciona la estructura de la web mediante elementos -->
+<!-- Código que permite detecta al navegador que es un documento html5 -->
+<!-- <html lang="en" dir="ltr"> -->
+<!-- html: nombre de etiqueta -->
+<!-- lang: atributo -->
+<!-- "en": valor del atributo -->
+<!DOCTYPE html>
+<html lang="ca">
+  <!-- Dentro del "head" irán todos los elementos de configuración de la web -->
+  <head>
+    <!-- Permite una configuración de carácteres especiales -->
+    <meta charset="utf-8">
+    <!-- La etiqueta "title" nos proporciona el titulo en la pestaña de navegador -->
+    <title>JS1</title>
+    <!-- Link que relacion el archivo css con html -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Link que relaciona el archivo js con html -->
+    <!-- <script type="text/javascript" src="js/var_datos.js"></script>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <script type="text/javascript" src="js/condicionales.js"></script>
+    <script type="text/javascript" src="js/bucles.js"></script> -->
+  </head>
+  <!-- Toda la parte visual del navegador la codifica la etiqueta body -->
+  <body id="bodybg">
+    <!-- Header: Cabecera de la web -->
+    <header>
+      <!-- img: Elemento de imagen con atributo "src": ruta del archivo -->
+      <a href="index.html"><img src="img/company_logo.png" alt="Logo de Ciberárium" id="logo"></a>
+      <!-- a: enlace o link con atributo "href" que nos asigna la ruta externa (http://google.es) o interna (contacto.html) -->
+      <div class="">
+          <a href="index.html">HOME</a>
+          <a href="contacto.html">CONTACT</a>
+      </div>
+    </header>
+    <main>
+        <img src="img/imagen_home.jpg" alt="Imagen de Bootstrap" class="imagen">
+        <img src="img/imagen_home.jpg" alt="Imagen de Bootstrap" class="imagen">
+        <img src="img/imagen_home.jpg" alt="Imagen de Bootstrap" class="imagen">
+        <img src="img/imagen_home.jpg" alt="Imagen de Bootstrap" class="imagen">
+        <img src="img/imagen_home.jpg" alt="Imagen de Bootstrap" class="imagen">
+        <img src="img/imagen_home.jpg" alt="Imagen de Bootstrap" class="imagen">
+    </main>
+    <footer>
+        <p>Web ejemplo clase JS</p>
+    </footer>
+    <!-- Lo añadimos el js aquí para que todos los elementos html se hayan creados. -->
+    <script type="text/javascript" src="js/dom.js"></script>
+  </body>
+</html>
